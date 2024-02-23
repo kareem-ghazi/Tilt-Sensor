@@ -16,22 +16,7 @@ To complete this project, you will need:
 
 ## Wiring
 
-The wiring diagram for the project is as follows:
-
-```
-Tilt Sensor:
-- Connect one end of the tilt sensor to 5V on the Arduino
-- Connect the other end of the tilt sensor to GND on the Arduino
-- Connect the middle pin of the tilt sensor to digital pin 2 on the Arduino
-
-Motor:
-- Connect the positive lead of the motor to the positive terminal of the motor driver
-- Connect the negative lead of the motor to the negative terminal of the motor driver
-- Connect pins 1 and 9 of the motor driver to 5V on the Arduino
-- Connect pins 4 and 5 of the motor driver to GND on the Arduino
-- Connect pins 2 and 7 of the motor driver to digital pins 3 and 4 on the Arduino
-
-```
+The wiring diagram for the project is as follows: ![](schematic.png)
 
 ## Code
 
@@ -40,6 +25,9 @@ The code for the project is written in the Arduino IDE. It reads the digital inp
 ## Usage
 
 To use the project, simply upload the code to your Arduino Uno board and connect the circuit as described above. When you tilt the sensor, the motor will move in the specified direction.
+
+## Tinkercad
+- You can view a live simulaton of the project through the following link on [Tinkercad](https://www.tinkercad.com/things/gbYevLSdVN8-tilt-sensor)
 
 ## Credits
 
